@@ -1,7 +1,7 @@
 // import React from "react";
 import ReactDOM from "react-dom/client";
+import App from "./App";
 // import "./index.css";
-
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(
 //   <React.StrictMode>
@@ -24,32 +24,32 @@ const root = document.getElementById("root");
 
 // JSX
 
-const content = (
-  <p id="qwe" className="ewq">
-    Name
-  </p>
-);
+// const content = (
+//   <p id="qwe" className="ewq">
+//     Name
+//   </p>
+// );
 
-const div2 = (
-  <div id="qwe" className="qwerty">
-    {content}
-  </div>
-);
+// const div2 = (
+//   <div id="qwe" className="qwerty">
+//     {content}
+//   </div>
+// );
 
-const Div3 = ({ name, age }) => (
-  <div id="qweqwe" className="qwerty123">
-    {content}
-    <img src="fdfs" alt="vddv" />
-  </div>
-);
+// const Div3 = ({ name, age }) => (
+//   <div id="qweqwe" className="qwerty123">
+//     {content}
+//     <img src="fdfs" alt="vddv" />
+//   </div>
+// );
 
-const Container = () => (
-  <>
-    {div2}
-    <Div3 name="Alex" age={30} />
-    {Div3({ name: "Alex", age: 30 })}
-  </>
-);
+// const Container = () => (
+//   <>
+//     {div2}
+//     <Div3 name="Alex" age={30} />
+//     {Div3({ name: "Alex", age: 30 })}
+//   </>
+// );
 
 // console.log("div :>> ", div);
-ReactDOM.createRoot(root).render(<Container />);
+ReactDOM.createRoot(root).render(<App />);
